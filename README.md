@@ -10,7 +10,7 @@ Note, the regular expressions are very specific and will return `NA` if the read
 
 ## Installation
 
-To run this program, you first need to have a stable version of the Rust language installed. The easiest way to do this is using [rustup](https://rustup.rs/), which will also install the Rust package manager (Cargo)[https://doc.rust-lang.org/cargo/index.html]
+To run this program, you first need to have a stable version of the Rust language installed. The easiest way to do this is using [rustup](https://rustup.rs/), which will also install the Rust package manager [Cargo](https://doc.rust-lang.org/cargo/index.html)
 
 Once you have Cargo installed you can clone this repository and compile the program locally:
 ```
@@ -22,7 +22,7 @@ cargo build --release
 Assuming you compiled as described above, the binary file should be located in `./target/release`
 The program can then run as follows, feeding an input sam file and saving the `stdout` to an output text file:
 ```
-./barcode_parser INPUT.sam > output.txt
+./barcode_parser INPUT.sam > OUTPUT.txt
 ```
 
 The output text file can then be read into R for further processing an analysis
